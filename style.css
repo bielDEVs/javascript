@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+body {
+    background-image: url('./imagens/por-do-sol-e-silhuetas-de-arvores-nas-montanhas-generative-ai.jpg');
+    background-size: cover;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    height: 30px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 5px 50px;
+}
+
+#mensagem {
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: rgb(206, 250, 10);
+    background-color: black;
+}
